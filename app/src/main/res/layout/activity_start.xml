@@ -26,8 +26,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#ffffffff"
-        android:textSize="25dp"
-        android:onClick="onClickPlay"/>
+        android:textSize="25dp"/>
     <Button
         android:layout_width="350dp "
         android:layout_height="wrap_content"
