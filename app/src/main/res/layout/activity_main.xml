@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@android:color/black"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -18,46 +18,33 @@
         android:layout_height="166dp"
         android:orientation="horizontal">
 
-        <GridView
-            android:id="@+id/activity_main_grid4"
+        <ImageView
+            android:id="@+id/activity_main_image_thousand"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="fill_parent"
-            android:gravity="center"
-            android:horizontalSpacing="2dp"
-            android:numColumns="7"
-            android:stretchMode="spacingWidth"
-            android:verticalSpacing="2dp" />
-        <GridView
-            android:id="@+id/activity_main_grid3"
+            android:layout_weight="1"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/activity_main_image_hundred"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="fill_parent"
-            android:gravity="center"
-            android:horizontalSpacing="2dp"
-            android:numColumns="7"
-            android:stretchMode="spacingWidth"
-            android:verticalSpacing="2dp" />
-        <GridView
-            android:id="@+id/activity_main_grid2"
+            android:layout_weight="1"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/activity_main_image_ten"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="fill_parent"
-            android:gravity="center"
-            android:horizontalSpacing="2dp"
-            android:numColumns="7"
-            android:stretchMode="spacingWidth"
-            android:verticalSpacing="2dp" />
-        <GridView
-            android:id="@+id/activity_main_grid1"
+            android:layout_weight="1"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/activity_main_image_unit"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="fill_parent"
-            android:gravity="center"
-            android:horizontalSpacing="2dp"
-            android:numColumns="7"
-            android:stretchMode="spacingWidth"
-            android:verticalSpacing="2dp" />
+            android:layout_weight="1"
+            android:src="@drawable/zero" />
 
     </LinearLayout>
 
