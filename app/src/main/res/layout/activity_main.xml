@@ -15,37 +15,49 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="166dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/activity_main_image_thousand"
+        <TextView
+            android:id="@+id/activity_main_textview_thousand"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@drawable/zero" />
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FF0000"
+            android:textSize="140sp" />
 
-        <ImageView
-            android:id="@+id/activity_main_image_hundred"
+        <TextView
+            android:id="@+id/activity_main_textview_hundred"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@drawable/zero" />
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FF0000"
+            android:textSize="140sp" />
 
-        <ImageView
-            android:id="@+id/activity_main_image_ten"
+        <TextView
+            android:id="@+id/activity_main_textview_ten"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@drawable/zero" />
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FF0000"
+            android:textSize="140sp" />
 
-        <ImageView
-            android:id="@+id/activity_main_image_unit"
+        <TextView
+            android:id="@+id/activity_main_textview_unit"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@drawable/zero" />
-
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FF0000"
+            android:textSize="140sp" />
     </LinearLayout>
 
     <LinearLayout
