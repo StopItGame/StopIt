@@ -9,7 +9,53 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activity_main_textview_set"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="SET - 0"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/activity_main_textview_level"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="LEVEL - 0"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_main_textview_target"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TARGET - 0"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/activity_main_imageview_stars"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/five_star" />
 
     </LinearLayout>
 
@@ -26,7 +72,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textColor="#FF0000"
+            android:textColor="#FF4444"
             android:textSize="140sp" />
 
         <TextView
@@ -36,7 +82,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textColor="#FF0000"
+            android:textColor="#FF4444"
             android:textSize="140sp" />
 
         <TextView
@@ -46,7 +92,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textColor="#FF0000"
+            android:textColor="#FF4444"
             android:textSize="140sp" />
 
         <TextView
@@ -56,14 +102,39 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textColor="#FF0000"
+            android:textColor="#FF4444"
             android:textSize="140sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/activity_main_button_stopRestart"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/try_again_button" />
+
+        <ImageButton
+            android:id="@+id/activity_main_button_nextLevel"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/next_level_button" />
 
     </LinearLayout>
 
