@@ -1,10 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/black"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#4F4F4F"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -19,43 +23,43 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/activity_main_textview_set"
+                android:id="@+id/activity_game_textview_set"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="SET - 0"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="30sp"/>
 
             <TextView
-                android:id="@+id/activity_main_textview_level"
+                android:id="@+id/activity_game_textview_level"
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="LEVEL - 0"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/activity_main_textview_target"
+            android:id="@+id/activity_game_textview_target"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TARGET - 0"
             android:textColor="@android:color/white"
-            android:textSize="40sp" />
+            android:textSize="40sp"/>
 
         <ImageView
-            android:id="@+id/activity_main_imageview_stars"
+            android:id="@+id/activity_game_imageview_stars"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:src="@drawable/five_star" />
+            android:src="@drawable/five_star"/>
 
     </LinearLayout>
 
@@ -66,75 +70,86 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/activity_main_textview_thousand"
+            android:id="@+id/activity_game_textview_thousand"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
             android:textColor="#FF4444"
-            android:textSize="140sp" />
+            android:textSize="140sp"/>
 
         <TextView
-            android:id="@+id/activity_main_textview_hundred"
+            android:id="@+id/activity_game_textview_hundred"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
             android:textColor="#FF4444"
-            android:textSize="140sp" />
+            android:textSize="140sp"/>
 
         <TextView
-            android:id="@+id/activity_main_textview_ten"
+            android:id="@+id/activity_game_textview_ten"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
             android:textColor="#FF4444"
-            android:textSize="140sp" />
+            android:textSize="140sp"/>
 
         <TextView
-            android:id="@+id/activity_main_textview_unit"
+            android:id="@+id/activity_game_textview_unit"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
             android:textColor="#FF4444"
-            android:textSize="140sp" />
+            android:textSize="140sp"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:gravity="center"
-        android:orientation="vertical"
-        android:padding="10dp">
+        android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/activity_main_button_stopRestart"
-            android:layout_width="fill_parent"
+            android:id="@+id/activity_game_button_stopRestart"
+            android:layout_width="200dp"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@android:color/black"
-            android:paddingLeft="25dp"
-            android:paddingRight="25dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/try_again_button" />
+            android:src="@drawable/try_again_button"/>
 
         <ImageButton
-            android:id="@+id/activity_main_button_nextLevel"
-            android:layout_width="fill_parent"
+            android:id="@+id/activity_game_button_nextLevel"
+            android:layout_width="200dp"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@android:color/black"
-            android:paddingLeft="25dp"
-            android:paddingRight="25dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/next_level_button" />
+            android:src="@drawable/next_level_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/activity_game_button_back"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/go_back_button"/>
 
     </LinearLayout>
 
