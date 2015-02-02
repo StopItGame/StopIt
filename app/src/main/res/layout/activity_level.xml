@@ -1,0 +1,478 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#4F4F4F"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_level_textview_set"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="SET - 0"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_3"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_4"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_5"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_6"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_7"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_8"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_9"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_10"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_11"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_12"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_13"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_14"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_level_stars_15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/five_star"/>
+
+                    <ImageButton
+                        android:id="@+id/activity_level_button_15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/level_15"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/activity_level_button_back"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/go_back_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
